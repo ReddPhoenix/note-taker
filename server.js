@@ -8,7 +8,8 @@ const app = express();
 const PORT = 3000;
 
 // Route to reach HTMLs & APIs
-require('/routes.js');
+require('./routes/routesHTML.js');
+require('./routes/routesAPI.js');
 
 
 //  Added listener for assigned PORT for server
